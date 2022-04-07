@@ -1,8 +1,10 @@
 import React from 'react';
-import "./Navbar.css";
 import  barra_superior from "../images/parte 1/barra fija parte superior.png";
 import btn_auxilio from "../images/parte 1/boton fijo auxilio.png";
 import btn_signin from "../images/parte 1/boton fijo inicio de sesión.png";
+import {
+    Link
+  } from "react-router-dom";
 
 const Navbar = () => {
     const pulsarAuxilio =()=>{
@@ -18,20 +20,20 @@ const Navbar = () => {
             </img>
         </div>
         <div className="header__buttons">
-            <div className="left__button">
+            <Link to="/auxilio mecánico" className="left__button">
                 <img 
                     src={btn_auxilio} 
                     onClick ={ ()=> {pulsarAuxilio()}}
                     alt="">
                 </img>
-            </div>
-            <div className="right__button">
+            </Link>
+            <Link to="/inicio_sesion" className="right__button">
                 <img 
                 src={btn_signin} 
                 onClick = {()=> {pulsarSignin()}}
                 alt="">
                 </img>
-            </div>
+            </Link>
         </div>
       </> 
   )

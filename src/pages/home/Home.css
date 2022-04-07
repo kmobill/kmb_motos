@@ -1,17 +1,20 @@
 @font-face {
-    font-family: fuente_Acumin;
-    src: url("../images/FUENTE/Acumin-BdltPro.otf");
+    font-family: Acumin-BdItPro;
+    src: url("../../images/FUENTE/Acumin-BdItPro.otf");
+    
+    font-family: Acumin-BdPro;
+    src: url("../../images//FUENTE/Acumin-BdPro.otf");
+    font-family: Acumin-ItPro;
+    src: url("../../images/FUENTE/Acumin-ItPro.otf");
   }
-*{
-    font-family: fuente_Acumin;
-}
-body{
+  body{
     margin: 0;
     padding: 0;
 }
 .container{
     min-height: 100vh;
-    background-image: url("../images/fondo\ general\ de\ web\ home.png");
+   /*background-image: url("../images/fondo\ general\ de\ web\ home.png");*/
+   background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -53,6 +56,7 @@ body{
 .service__title{
     display: flex;
     justify-content: center;
+    margin-top: 2%;
 }
 
 .service__cards{
@@ -83,13 +87,15 @@ body{
 
 .service__cards .card .bottom__button{
     position: absolute;
-   bottom: 10%;
-   left: 35%;
+    bottom: 10%;
+    left: 35%;
    
 }
 .service__cards .card p{
     position: absolute;
-   
+    bottom:20%;
+    left: 5%;
+    padding: 15px;
 }
 
 .service__cards .card .bottom__button img{
@@ -106,7 +112,7 @@ body{
  }
 
  .part4{
-     background-image: url('../images/parte 4/pie de web.png');
+     background-image: url('../../images/parte 4/pie de web.png');
      background-size: cover;
      background-position: center;
      background-repeat: no-repeat;

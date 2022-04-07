@@ -1,5 +1,7 @@
 import React from 'react';
-
+import {
+  Link
+} from "react-router-dom";
 const Card = (props) => {
   return (
     <div className='service__cards'>
@@ -11,9 +13,9 @@ const Card = (props) => {
             <p>
               {props.content}
             </p>
-            <div className ="bottom__button">
+            <Link to={"./"+props.name} className ="bottom__button">
                 <img src={require('../images/parte 2/boton de acceder.png')} alt=""></img>                
-            </div>
+            </Link>
         </div>
     </div>
   )

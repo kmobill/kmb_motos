@@ -8,6 +8,7 @@ const SlidesContainer = () => {
       itemsToShow={1} 
       pagination={false}
       showArrows={false}
+      disableArrowsOnEnd={false}
       autoTabIndexVisibleItems={false}
       preventDefaultTouchmoveEvent={true}
     >

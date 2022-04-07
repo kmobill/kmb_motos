@@ -6,7 +6,7 @@ const BoxContainer = () => {
       <Box name = "AGENDAMIENTO DE CITAS"/>  
       <Box name = "HAZTE SOCIO"/>
       <Box name = "QUIERO UNA FRANQUICIA"/>
-      <Box name = "PATIO MOTOS"/>
+      <Box name = "PATIO MOTOS" last ={true}/>
     </div>
   )
 }

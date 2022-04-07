@@ -1,13 +1,15 @@
 @font-face {
     font-family: Acumin-BdItPro;
     src: url("../../images/FUENTE/Acumin-BdItPro.otf");
-    
     font-family: Acumin-BdPro;
     src: url("../../images//FUENTE/Acumin-BdPro.otf");
     font-family: Acumin-ItPro;
     src: url("../../images/FUENTE/Acumin-ItPro.otf");
   }
-  body{
+*{
+    font-family: Acumin-ItPro;
+}
+body{
     margin: 0;
     padding: 0;
 }
@@ -33,12 +35,14 @@
 }
 .left__button img{ 
     position: absolute;
+    width: 13%;
     top: 2%;
 }
 
 
 .right__button img{
     position: absolute;
+    width: 13%;
     right: 0;
     top: 2%; 
 }
@@ -96,6 +100,7 @@
     bottom:20%;
     left: 5%;
     padding: 15px;
+    color: #fcf9ed;
 }
 
 .service__cards .card .bottom__button img{
@@ -110,6 +115,9 @@
      padding-top: 3rem;
      padding-bottom: 7rem;
  }
+
+/*part4*/
+
 
  .part4{
      background-image: url('../../images/parte 4/pie de web.png');
@@ -135,7 +143,7 @@
  .footer .footer__infoText h3,
  .footer .footer__socialMedia h3 {
     margin: 0;
-    color: white;
+    color: #fcf9ed;
     text-align: center;
     font-size: 2rem;
  }
@@ -155,7 +163,7 @@
  .footer__ubication h3,
  .footer__ubication h4{
      margin: 0;
-     color: wheat;
+     color: #fcf9ed;
      text-align: center;
      font-size: 1.5rem;
  }
@@ -181,15 +189,57 @@
 .box__message{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /*justify-content: center;*/
     text-align: center;
     width: 40%;
     position: relative;
     margin-left: 7rem;
     margin-right: 2rem;
 }
+.box__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+
 
 .box .bottom__button img{
     height: 2.5rem;
     width: 150px;
+}
+.separator__line{
+    height: 5px;
+    width: 100%;
+    background: red;
+}
+.separator__line__last{
+    height: 5px;
+    width: 100%;
+    background: red;
+}
+/* estilos carousel*/
+
+.rec.rec-arrow {
+    border-radius: 0;
+    background-color: #c91c1c;
+}
+/* round buttons on hover */
+.rec.rec-arrow:hover {
+    border-radius: 50%;
+    background-color: #c91c1c;
+}
+/* hide disabled buttons */
+.rec.rec-arrow:disabled {
+    visibility: hidden;
+    background-color: #c91c1c;
+}
+/* disable default outline on focused items */
+/* add custom outline on focused items */
+.rec-carousel-item:focus {
+    outline: none;
+    box-shadow: inset 0 0 1px 1px lightgrey;
+    background-color: #c91c1c;
 }

@@ -1,0 +1,51 @@
+.part4{
+    background-image: url('../images/parte 4/pie de web.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.part4 .footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.footer .footer__infoText,
+ .footer .footer__ubication,
+ .footer .footer__socialMedia{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .footer .footer__infoText h3,
+ .footer .footer__socialMedia h3 {
+    margin: 0;
+    color: #fcf9ed;
+    text-align: center;
+    font-size: 2rem;
+ }
+ 
+.footer__ubication .icon__ubication,
+.footer__socialMedia .icon__ubication{
+    display: flex;
+    justify-content: center;
+    margin: 0.5rem 0;
+}
+
+ .footer__ubication img{
+     height: 3rem;
+     width: 3rem;
+ }
+
+ .footer__ubication h3,
+ .footer__ubication h4{
+     margin: 0;
+     color: #fcf9ed;
+     text-align: center;
+     font-size: 1.5rem;
+ }
+
+ .footer__socialMedia img{    
+    width: 10rem;
+}

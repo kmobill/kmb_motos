@@ -1,0 +1,5 @@
+.container__box__taller{
+    display: flex;
+    align-content: space-between;
+    width: 100%;
+}

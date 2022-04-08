@@ -1,13 +1,13 @@
 @font-face {
     font-family: Acumin-BdItPro;
-    src: url("../../images/FUENTE/Acumin-BdItPro.otf");
+    src: url("../../FUENTE/Acumin-BdItPro.otf");
     font-family: Acumin-BdPro;
-    src: url("../../images//FUENTE/Acumin-BdPro.otf");
+    src: url("../../FUENTE/Acumin-BdPro.otf");
     font-family: Acumin-ItPro;
-    src: url("../../images/FUENTE/Acumin-ItPro.otf");
+    src: url("../../FUENTE/Acumin-ItPro.otf");
   }
 *{
-    font-family: Acumin-ItPro;
+    font-family:  Acumin-BdItPro;
 }
 body{
     margin: 0;
@@ -15,13 +15,9 @@ body{
 }
 .container{
     min-height: 100vh;
-   /*background-image: url("../images/fondo\ general\ de\ web\ home.png");*/
    background-color: black;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
-
+/*
 .img__header img{  
     width: 100%;  
     position: relative;
@@ -47,16 +43,15 @@ body{
     top: 2%; 
 }
 
+
 .big__image img {
     width: 100%;
 }
 
-/*PART 2*/
-
 .part__2{
     width: 100%;    
 }
-
+/*
 .service__title{
     display: flex;
     justify-content: center;
@@ -107,16 +102,17 @@ body{
     height: 2rem;
     width: 100px;
  }
-
+*/
  /*PART 3*/
  
+ /*
  .part3 {
      width: 100%;   
      padding-top: 3rem;
      padding-bottom: 7rem;
  }
+ 
 
-/*part4*/
 
 
  .part4{
@@ -173,7 +169,6 @@ body{
 }
 .image{
     width: 60%;
-    width: 100%;
 }
 .image img{
     width: 100%;
@@ -181,6 +176,7 @@ body{
     padding-left:4em;
     padding-right: 2em;
 }
+
 .box{
     display: flex;
     flex-direction: row;
@@ -189,7 +185,6 @@ body{
 .box__message{
     display: flex;
     flex-direction: column;
-    /*justify-content: center;*/
     text-align: center;
     width: 40%;
     position: relative;
@@ -206,6 +201,7 @@ body{
 }
 
 
+
 .box .bottom__button img{
     height: 2.5rem;
     width: 150px;
@@ -220,26 +216,32 @@ body{
     width: 100%;
     background: red;
 }
+*/
 /* estilos carousel*/
-
+/*
 .rec.rec-arrow {
     border-radius: 0;
     background-color: #c91c1c;
 }
-/* round buttons on hover */
 .rec.rec-arrow:hover {
     border-radius: 50%;
-    background-color: #c91c1c;
 }
-/* hide disabled buttons */
 .rec.rec-arrow:disabled {
     visibility: hidden;
-    background-color: #c91c1c;
 }
-/* disable default outline on focused items */
-/* add custom outline on focused items */
+.eWjCzc{
+    color: white;
+}
 .rec-carousel-item:focus {
     outline: none;
     box-shadow: inset 0 0 1px 1px lightgrey;
-    background-color: #c91c1c;
 }
+button.rec-dot{
+    background-color: rgb(235, 16, 16);
+    box-shadow: 0 0 1px 3px rgba(235, 16, 16, 0.5);
+  }
+  
+  button.rec-dot:hover, button.rec-dot:active, button.rec-dot:focus  {
+    box-shadow: 0 0 1px 3px rgba(235,16,16,0.5);
+  }
+*/

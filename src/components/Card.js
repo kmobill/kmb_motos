@@ -2,6 +2,7 @@ import React from 'react';
 import {
   Link
 } from "react-router-dom";
+import "./Card.css";
 const Card = (props) => {
   return (
     <div className='service__cards'>

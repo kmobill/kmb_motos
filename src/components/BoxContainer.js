@@ -1,5 +1,6 @@
 import React from 'react'
 import Box from './Box'
+import "./BoxContainer.css"
 const BoxContainer = () => {
   return (
     <div className="part3">

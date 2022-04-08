@@ -1,0 +1,46 @@
+.box{
+    display: flex;
+    flex-direction: row;
+    color: wheat;
+}
+.box__message{
+    display: flex;
+    flex-direction: column;
+    /*justify-content: center;*/
+    text-align: center;
+    width: 40%;
+    position: relative;
+    margin-left: 7rem;
+    margin-right: 2rem;
+}
+.box .box__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    height: 100%;
+}
+.image{
+    width: 60%;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    padding-left:4em;
+    padding-right: 2em;
+}
+.box .bottom__button img{
+    height: 2.5rem;
+    width: 150px;
+}
+.separator__line{
+    height: 5px;
+    width: 100%;
+    background: red;
+}
+.separator__line__last{
+    height: 5px;
+    width: 100%;
+    background: red;
+}

@@ -1,0 +1,24 @@
+.img__header img{  
+    width: 100%;  
+    position: relative;
+}
+
+.header__buttons{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.left__button img{ 
+    position: absolute;
+    width: 13%;
+    top: 2%;
+}
+
+
+.right__button img{
+    position: absolute;
+    width: 13%;
+    right: 0;
+    top: 2%; 
+}

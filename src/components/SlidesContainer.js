@@ -1,13 +1,13 @@
 import React from 'react'
 import Slide from './Slide'
 import Carousel from 'react-elastic-carousel';
-
+import "./SlidesContainer.css"
 const SlidesContainer = () => {
   return (
     <Carousel 
       itemsToShow={1} 
       pagination={false}
-      showArrows={false}
+      showArrows={true}
       disableArrowsOnEnd={false}
       autoTabIndexVisibleItems={false}
       preventDefaultTouchmoveEvent={true}

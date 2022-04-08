@@ -13,6 +13,8 @@ import AuxilioMecanico from "./routes/AuxilioMecanico";
 import TallerMultimarca from "./routes/TallerMultimarca";
 import Repuestos from "./routes/Repuestos";
 import Courier from "./routes/Courier";
+import Taller from "./pages/taller/Taller";
+
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -22,7 +24,7 @@ root.render(
         <Route path="/" element={<App/>}/>
         <Route path="/inicio_sesion" element={<IniciarSesion/>}/>
         <Route path="/auxilio mecánico" element={<AuxilioMecanico/>}/>
-        <Route path="/taller" element={<TallerMultimarca/>}/>
+        <Route path="/taller" element={<Taller/>}/>
         <Route path="/courier" element={<Courier/>}/>
 
       </Routes>

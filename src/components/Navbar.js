@@ -2,6 +2,7 @@ import React from 'react';
 import  barra_superior from "../images/parte 1/barra fija parte superior.png";
 import btn_auxilio from "../images/parte 1/boton fijo auxilio.png";
 import btn_signin from "../images/parte 1/boton fijo inicio de sesión.png";
+import "./Navbar.css"
 import {
     Link
   } from "react-router-dom";

@@ -1,6 +1,7 @@
 import React from 'react';
 import logo_ubicacion from "../images/parte 4/icono ubicación.png";
 import logo_redes from "../images/parte 4/icono redes sociales.png";
+import "./Footer.css"
 function Footer() {
   return (
     <>

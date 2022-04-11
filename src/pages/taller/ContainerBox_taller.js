@@ -77,7 +77,6 @@ const ContainerBox_taller = () => {
             (frenos, aceite, hidráulico)"
             price="40 USD"
         />
-
     </div>
   )
 }

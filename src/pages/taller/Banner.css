@@ -23,14 +23,14 @@
     display: flex;
 }
 .img__banner__text{
-    width: 60%;
+    width: 70%;
     height: 100%;
     margin: 6rem;
 }
 .banner__container .banner_text p{
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     position: absolute;
-    width: 55%;
+    width: 60%;
     padding: 15px;
 }

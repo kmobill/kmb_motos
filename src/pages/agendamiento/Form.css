@@ -1,0 +1,129 @@
+*{
+    font-size: large;
+}
+
+.container__AG__form{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container__AG__form P{
+    width: 80%;
+    margin: 3rem;
+    text-align: center;
+}
+.container__AG__form__content{
+    display: flex;
+    justify-content: center;
+    margin: 8rem;
+}
+.container__AG__form__content .img__formFondo{
+    width: 130%;
+}
+.container__AG__form__content form{
+    position: relative;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container__AG__form__content label{
+    text-align: center;
+}
+.container__form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 80%;
+}
+.container__AG__form__content form input{
+    border-radius: 1rem;
+    height: 2.5rem;
+}
+.container__AG__form__content form select{
+    border-radius: 1rem;
+    height: 2.5rem;
+}
+.container__AG__form__content form label{
+    margin: 1.5rem;
+}
+.container__AG__form__logo{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+}
+.img__logo__form{
+    width: 80%;
+}
+.img__btn__form{
+    width: 80%;
+}
+.form__calendar{
+    justify-content: center;
+    display: flex;
+}
+.form__calendar .btn__form__consultar{
+    width: 20%;
+}
+option{
+    color: black;
+}
+input{
+    color: black;
+}
+select{
+    color: black;
+}
+p{
+    width: 80%;
+    margin: 3rem;
+    text-align: center;
+}
+.form__calendar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+}
+.container__date{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+}
+.container__date div .date__item{
+    background-color: aliceblue;
+    color: black;
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: 10rem;
+    border-radius: 1rem;
+    text-align: center;
+}
+.container__date div h1{
+    margin: 0.5rem;
+    height: 2.5rem;
+    width: 10rem;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.btn__form__AG{
+    background-image: url("../../images/agendamientoPage/btn_agendar_cita.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 2.5%;
+    border-radius: 1rem;
+    margin: 8rem;
+}
+form p{
+    font-size: small;
+}
+/*<img className='img__btn__form' src={require("../../images/agendamientoPage/btn_agendar_cita.png")} alt=""/>*/

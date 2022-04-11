@@ -1,5 +1,5 @@
 .container__box__taller{
     display: flex;
-    align-content: space-between;
+    align-content: center;
     width: 100%;
 }

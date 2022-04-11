@@ -1,13 +1,15 @@
 @font-face {
     font-family: Acumin-BdItPro;
-    src: url("../../FUENTE/Acumin-BdItPro.otf");
+    src: url("../../FUENTE/Acumin/Acumin-BdItPro.otf");
     font-family: Acumin-BdPro;
-    src: url("../../FUENTE/Acumin-BdPro.otf");
+    src: url("../../FUENTE/Acumin/Acumin-BdPro.otf");
     font-family: Acumin-ItPro;
-    src: url("../../FUENTE/Acumin-ItPro.otf");
+    src: url("../../FUENTE/Acumin/Acumin-ItPro.otf");
+    font-family: Acumin-ItRegular;
+    src:url("../../FUENTE/Acumin/Acumin-RPro.otf")
   }
 *{
-    font-family:  Acumin-BdItPro;
+    font-family:  Acumin-ItRegular;
 }
 body{
     margin: 0;

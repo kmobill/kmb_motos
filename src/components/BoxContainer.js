@@ -4,10 +4,23 @@ import "./BoxContainer.css"
 const BoxContainer = () => {
   return (
     <div className="part3">
-      <Box name = "AGENDAMIENTO DE CITAS"/>  
-      <Box name = "HAZTE SOCIO"/>
-      <Box name = "QUIERO UNA FRANQUICIA"/>
-      <Box name = "PATIO MOTOS" last ={true}/>
+      <Box 
+      name = "AGENDAMIENTO DE CITAS"
+      url = "agendamiento_citas"
+      />  
+      <Box 
+      name = "HAZTE SOCIO"
+      url = "hazte_socio"
+      />
+      <Box 
+      name = "QUIERO UNA FRANQUICIA"
+      url = "quiero_franquicia"
+      />
+      <Box 
+      name = "PATIO MOTOS" 
+      url = "patio_motos"
+      last ={true}
+      />
     </div>
   )
 }

@@ -1,0 +1,35 @@
+*{
+    color: aliceblue;
+}
+.container__AG{
+    background-color: black;
+}
+.img__AG__banner{
+    width: 100%;
+}
+.container__AG__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.img__AG__titulo{
+    width: 60%;
+    height: 20%;    
+}
+.img__AG__subtitulo{
+    width: 40%;
+    height: 20%;
+    position: relative;
+}
+.container__AG__subtitulo{   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 6rem; 
+}
+
+.img__AG__subtituloFondo{
+    width: 100%;
+    position: absolute;
+}

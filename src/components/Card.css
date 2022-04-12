@@ -12,6 +12,9 @@
 
 .service__cards .card{
     position: relative;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
 }
 
 .service__cards .card > .card__title{
@@ -38,10 +41,12 @@
 }
 .service__cards .card p{
     position: absolute;
-    bottom:20%;
-    left: 5%;
-    padding: 15px;
+    bottom: 20%;
+    left: 0;
+    padding: 0;
     color: #fcf9ed;
+    margin: 10%;
+    font-size: medium;
 }
 
 .service__cards .card .bottom__button img{

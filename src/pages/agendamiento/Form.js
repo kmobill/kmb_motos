@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from "react";
 import { useForm } from "react-hook-form";
 import "./Form.css";
-import { Popup, DatePicker} from 'react-date-time-picker-popup'
+import { Popup, DatePicker,TimeSelector} from 'react-date-time-picker-popup'
 import 'react-date-time-picker-popup/dist/index.css'
 const Form = (props) => {
   const { register, handleSubmit } = useForm();
@@ -40,13 +40,23 @@ const Form = (props) => {
               </div>    
             </div>            
             <img className="btn__form__consultar" src={require("../../images/agendamientoPage/8.png")} alt="" onClick={() => setVisible(true)}/>
-            <Popup visible={visible} setVisible={setVisible}>
+            <Popup 
+            visible={visible} 
+            setVisible={setVisible}
+            >
               <DatePicker 
                 lang="esp" 
                 selectedDay={day} 
                 setSelectedDay={setDay} 
-                timeSelector={true}              >
-              </DatePicker>              
+                timeSelector={true}    
+                minuteInterval={60}                
+                BGColor="rgb(0,0,0)"
+              >
+                <TimeSelector
+                BGColor="rgb(0,0,0)"
+                />
+              </DatePicker>
+                        
             </Popup>            
           </div>
             <label>*NOMBRE:</label>

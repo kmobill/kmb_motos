@@ -15,6 +15,7 @@ import Repuestos from "./pages/repuestos/Repuestos";
 import Courier from "./routes/Courier";
 import Taller from "./pages/taller/Taller";
 import AgendamientoCitas from "./pages/agendamiento/AgendamientoCitas";
+import AcercaDeNosotros from "./pages/acercaDeNosotros/AcercaDeNosotros";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -28,9 +29,9 @@ root.render(
         <Route path="/courier" element={<Courier/>}/>
         <Route path="/repuestos" element={<Repuestos/>}/>
         <Route path="/agendamiento_citas" element={<AgendamientoCitas/>}/>
+        <Route path="/acerca_de_nosotros" element={<AcercaDeNosotros/>}/>
       </Routes>
-    </BrowserRouter>
- 
+    </BrowserRouter> 
   </React.StrictMode>
 );
 reportWebVitals();
